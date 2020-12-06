@@ -1,0 +1,51 @@
+:root {
+    --bg-color-1: white; 
+    --bg-color-2: lightpink; 
+    --bg-color-3: lightblue; 
+    --txt-color-1: black;
+    --txt-color-2: white; 
+
+    --paint-1: red;
+    --paint-2: yellow;
+    --paint-3: blue; 
+    --paint-4: #fff; 
+    --paint-5: #000000; 
+
+    --square-1: white; 
+    --size: 30px; 
+    --grid-thing: auto auto; 
+}
+
+
+body { 
+    background-color: var(--bg-color-2);
+}
+
+main {
+    padding: 2.5rem;
+    margin: auto;
+    text-align: center; 
+}
+
+#grid {
+    display: inline-grid;
+    grid-template-columns: var(--grid-thing);
+    grid-template-rows: var(--grid-thing);
+}
+
+.box {
+    width: var(--size); 
+    height: var(--size);
+    background: var(--square-1);
+    border: solid; 
+    border-color: black; 
+    padding: 10px;
+}
+
+#red {
+    background: red; 
+}
+article {
+    padding: 2.5rem; 
+    margin: 2.5rem; 
+}
